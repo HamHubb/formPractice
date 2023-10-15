@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FormPractice</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form class="bg-color">
+                <div class="row">
+                    <div>
+                    <label for="name">Name:</label>
+                        <input 
+                        id="name" 
+                        type="text" 
+                        name="name"
+                        required
+                            />
+                    </div>  
+                    <div>
+                        <label for="email">Email:</label>
+                            <input 
+                            id="email" 
+                            type="text" 
+                            name="name"
+                            placeholder="ex:yourEmail@hotmail.com"
+                            maxlength="100"
+                            required
+                            />
+                    </div> 
+                    <div>
+                        <label for="form-message">Your message:</label>
+                        <textarea 
+                            id="form-message" 
+                            name="message"
+                            required 
+                            maxlength="400"
+                        ></textarea>
+                    </div>
+                </div>
+        <button type="submit">Submit</button>
+      </form>
+</body>
+</html>
+
